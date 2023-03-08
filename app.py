@@ -9,6 +9,6 @@ cadena = st.text_input('Ingrese la cadena a analizar:')
 
 if st.button('Ingresar'):
     resultado = lexer(cadena)
-    st.text(f'Resultado: ${resultado}')
+    st.text(f'Resultado: {resultado}')
 
     
